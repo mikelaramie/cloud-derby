@@ -35,23 +35,23 @@ TEAM_START_NUM=1
 NUM_PEOPLE_PER_TEAM=6
 
 ### Name of the event - to be added to user and group names
-EVENT_NAME="BMM"
+EVENT_NAME="MJL"
 
 ### Folder that holds all project sub-folders for users
 # TOP_FOLDER="Feb-12-$EVENT_NAME"
-TOP_FOLDER="February-26-$EVENT_NAME"
+TOP_FOLDER="cloudderby-$EVENT_NAME-$(date +%F)"
 
 ### Domain name
-DOMAIN="cloudderby.io"
+DOMAIN="mtothel.com"
 
 ### Directory for temp data
 TMP="tmp"
 
 ### Group that has all users and allows read only access to a whole bunch of shared resources
-ADMIN_READ_GROUP="read-only-group@$DOMAIN"
+ADMIN_READ_GROUP="cloudderby-read-only-group@$DOMAIN"
 
 ### GAM is a wonderful OSS tool to manage Users and Groups
-GAM="/home/ubuntu/bin/gam/gam"
+GAM="~/bin/gam/gam"
 
 ###############################################################################
 # Lookup Org ID from the Domain name
